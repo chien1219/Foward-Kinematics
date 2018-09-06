@@ -1,0 +1,26 @@
+<config>
+    <!--The time step to play the motion caputre file-->
+    <time_step>0.01</time_step>
+    <!--footskate_clean_time_step>0.1</footskate_clean_time_step-->
+    <frame_increment>1</frame_increment>
+    <!--keyFrameInterval>50</keyFrameInterval-->
+    <bone_radius>0.025</bone_radius>
+    <axis_scale>0.3</axis_scale>
+    <drift_up>17.0</drift_up>
+    <result_picture_path>../result_picture/</result_picture_path>
+    <time_warp>
+        <drop_ball_catch_frame_idx>150</drop_ball_catch_frame_idx>
+        <drop_ball_init_pos x="0.0" y="3.0" z="0.0"/>
+        <drop_ball_acc x="0.0" y="-9.81" z="0.0"/>
+        <drop_ball_pos x="0.0" y="1.0" z="0.0"/>
+        <drop_ball_color r="1.0" g="0.54" b="0.1" a="0.8"/>
+        <drop_ball_collision_radius>0.1</drop_ball_collision_radius>
+        <drop_ball_visulation_radius>0.125</drop_ball_visulation_radius>
+        <end_effector_color r="0.392" g="0.392" b="0.898" a="0.8"/>
+        <end_effector_radius>0.15</end_effector_radius>
+        <!--desired_catch_frame_idx>140</desired_catch_frame_idx-->
+        <desired_catch_frame_idx>160</desired_catch_frame_idx>
+        <skeleton_light_alpha>0.25</skeleton_light_alpha>
+        <skeleton_color r="0.28235" g="0.46274" b="1.0" a="0.9"/>
+    </time_warp>
+</config>

@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\acclaim">
+      <UniqueIdentifier>{a8895130-f19f-4adb-92b6-04046f5e8b91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\console">
+      <UniqueIdentifier>{9a6b4f5e-bc21-42b8-99ed-ec9174dfa2d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{7a2ace3d-0834-497a-8c58-aeb6eb4df4dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\kinematics">
+      <UniqueIdentifier>{3f793c1e-edfc-44be-9c8b-6217646fd4ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\math">
+      <UniqueIdentifier>{a994fafd-e918-42ee-a649-3c9205dc86bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\param">
+      <UniqueIdentifier>{d0d12a24-d891-4ec3-ad50-c574af3eab93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\third_party">
+      <UniqueIdentifier>{a7ac8aa2-0000-4604-9abc-a20e9e6edfba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\acclaim">
+      <UniqueIdentifier>{5b2996d7-3eea-4202-aa2f-2cd6c81423f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\console">
+      <UniqueIdentifier>{8c460cce-2555-47e5-a153-d0700a5e824f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\geometry">
+      <UniqueIdentifier>{8795c738-7576-4fd5-ac88-d0b8e7c55397}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\geometry">
+      <UniqueIdentifier>{e5f4a767-23cf-4bfa-bed4-7acc50bcebc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\include">
+      <UniqueIdentifier>{b3775014-f220-4055-b5f1-1b036626556b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\kinematics">
+      <UniqueIdentifier>{c16e12ec-0647-4fce-826d-50cf333d4639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\math">
+      <UniqueIdentifier>{bffb6309-0c33-41af-947e-2f2a5b3cc922}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\param">
+      <UniqueIdentifier>{91ebaa9a-1b5e-40b2-a7ed-6e2f04330761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\third_party">
+      <UniqueIdentifier>{3269bc1e-2ac2-45d0-98b1-b39103d9a536}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\gui">
+      <UniqueIdentifier>{401a23d3-86ae-46e2-ac9d-1d52355df620}</UniqueIdentifier>
+      <Extensions>
+      </Extensions>
+    </Filter>
+    <Filter Include="Header Files\helper">
+      <UniqueIdentifier>{16c861b0-1efa-45c4-a918-b59cedcfb7a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cc">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\acclaim\acclaim_motion.cc">
+      <Filter>Source Files\acclaim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\acclaim\acclaim_skeleton.cc">
+      <Filter>Source Files\acclaim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\acclaim\posture.cc">
+      <Filter>Source Files\acclaim</Filter>
+    </ClCompile>
+    <ClCompile Include="..\console\console_color.cc">
+      <Filter>Source Files\console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\console\console_log.cc">
+      <Filter>Source Files\console</Filter>
+    </ClCompile>
+    <ClCompile Include="..\geometry\geometry_arrow.cc">
+      <Filter>Source Files\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_artic_idx.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_pose.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gl_utils.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_display.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_gl_window.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_main_window.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_marker.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_mouse.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_screenshot.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_signal.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_utils.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\math\math_utils.cc">
+      <Filter>Source Files\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\third_party\lodepng.cpp">
+      <Filter>Source Files\third_party</Filter>
+    </ClCompile>
+    <ClCompile Include="..\param\param_config.cc">
+      <Filter>Source Files\param</Filter>
+    </ClCompile>
+    <ClCompile Include="..\param\param_xml_parser.cc">
+      <Filter>Source Files\param</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_forward_solver.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\geometry\geometry_ellipsoid.cc">
+      <Filter>Source Files\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_time_warper.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_color.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_ball.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\geometry\geometry_sphere.cc">
+      <Filter>Source Files\geometry</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_renderer.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_camera.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_polar_rotation.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_convert_simulation_time_to_frame_idx.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_eval_drop_ball_catch.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_eval_drop_ball_catch_time.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_eval_drop_ball_pos.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_eval_drop_ball_init_pos.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_time_warp_hard_constraint.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\kinematics\kinematics_drop_ball_catch_pos_evaluator.cc">
+      <Filter>Source Files\kinematics</Filter>
+    </ClCompile>
+    <ClCompile Include="..\gui\gui_skeleton_color.cc">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\acclaim\acclaim_bone.h">
+      <Filter>Header Files\acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\acclaim\acclaim_motion.h">
+      <Filter>Header Files\acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\acclaim\acclaim_skeleton.h">
+      <Filter>Header Files\acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\acclaim\posture.h">
+      <Filter>Header Files\acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\console\console_color.h">
+      <Filter>Header Files\console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\console\console_log.h">
+      <Filter>Header Files\console</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geometry\geometry_arrow.h">
+      <Filter>Header Files\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_artic_idx.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_pose.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_type.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math\math_col_vector_3d.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math\math_col_vector_6d.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math\math_homogeneous_transform.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math\math_spatial_temporal_data.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math\math_type.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\math\math_utils.h">
+      <Filter>Header Files\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\third_party\lodepng.h">
+      <Filter>Header Files\third_party</Filter>
+    </ClInclude>
+    <ClInclude Include="..\param\param_type.h">
+      <Filter>Header Files\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\param\param_xml_parser.h">
+      <Filter>Header Files\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\acclaim\acclaim_fwd.h">
+      <Filter>Header Files\acclaim</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_forward_solver.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geometry\geometry_ellipsoid.h">
+      <Filter>Header Files\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\param\param_fwd.h">
+      <Filter>Header Files\param</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geometry\geometry_fwd.h">
+      <Filter>Header Files\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_time_warper.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gl_utils.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_ball.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_camera.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_color.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_display.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_fwd.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_gl_window.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_main_window.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_marker.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_mouse.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_polar_rotation.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_screenshot.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_signal.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_type.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_utils.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\global_def.h">
+      <Filter>Header Files\include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geometry\geometry_def.h">
+      <Filter>Header Files\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\geometry\geometry_sphere.h">
+      <Filter>Header Files\geometry</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_renderer.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_convert_simulation_time_to_frame_idx.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_eval_drop_ball_catch.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_eval_drop_ball_catch_time.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_eval_drop_ball_pos.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_eval_drop_ball_init_pos.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_time_warp_hard_constraint.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\kinematics\kinematics_drop_ball_catch_pos_evaluator.h">
+      <Filter>Header Files\kinematics</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_skeleton_color.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\gui\gui_fl_widget_callback_data.h">
+      <Filter>Header Files\gui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helper\helper_def.h">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helper\helper_forward_kinematics.h">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+    <ClInclude Include="..\helper\helper_fwd.h">
+      <Filter>Header Files\helper</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
